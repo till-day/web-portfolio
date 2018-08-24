@@ -1,0 +1,330 @@
+/*-- All code and design created by Greg Voskuhl. Images and content sourced from public usage sites. (mostly unsplash.com) */
+
+body {
+  background-color: #006994;
+  font-family: 'Merriweather', serif;
+  /*font-size: 18px;*/
+}
+
+
+#main-content {
+  margin-left: 0px;
+  margin-right: 0px;
+  /* padding-left: 0px;
+  padding-right: 0px; */
+}
+
+/*     Welcome screen      */
+.jumbotron {
+  height: 100vh;
+  background: rgb(0,105,148); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(0,105,148,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,105,148,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,105,148,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006994', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+vertical-align: middle;
+color: #FFD700;
+border-radius: 0px;
+}
+
+#welcome .btn-outline-primary,
+#welcome .jumbotron a,
+#welcome .display-5 {
+  color:#FFD700;
+  border-color: #FFD700;
+}
+#welcome .btn-outline-primary:focus,
+#welcome .btn-outline-primary:hover {
+  background-color: #FFD700;
+  color: white;
+}
+
+#welcome .jumbotron {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+/*    End Welcome Screen   */
+
+/*  Video Section */
+#about {
+  background-color: #ffffff;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#about img {
+  max-width: auto;
+  max-height: 250px;
+  border-radius: 50%;
+}
+
+#book {
+  color: white;
+  background: rgb(125,126,125); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#book img {
+  max-height: 100px;
+}
+
+#book .btn {
+  border-width: 2px;
+}
+
+#podcast {
+  background-image: url("img/beach.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+#podcast h2 {
+  color: black;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px white;
+}
+
+#podcast img {
+  max-height: 200px;
+}
+
+#vid {
+  width: 100%;
+}
+
+/*  End video Section */
+
+/*  BEGIN TESTIMONIALS  */
+#testimonials img {
+  height: 250px;
+  max-width: 250px;
+}
+
+#testimonials {
+  background-color: #000000;
+}
+
+#testimonials .carousel-caption {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 50%;
+  float: right;
+  margin-left: 200px;
+}
+
+ /* END TESTIMONIALS */
+
+/*     Program Banner     */
+#best {
+  color: white;
+  float:right;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: red;
+}
+
+#banner {
+  /* color: white; */
+  background-color: #707070;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* background-color: #FFFFFF; */
+  /* background-color: #666666; */
+  background: rgb(125,126,125); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(125,126,125,1) 0%, rgba(255,255,255,1) 99%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(125,126,125,1) 0%,rgba(255,255,255,1) 99%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(255,255,255,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#banner ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#banner .btn {
+  float:right;
+  margin-right: 25px;
+}
+
+#banner .btn-primary {
+  background-color: purple;
+  border-color: indigo;
+}
+
+.promo {
+  padding: 25px;
+  padding-right: 0px;
+}
+
+
+.checkmark {
+  float:right;
+  padding-right: 15px;
+}
+
+/*    End Program Banner     */
+
+/*  Subscribe Section  */
+
+#subscribe {
+  padding: 50px;
+  background-color: #ffffff;
+  /* background-color:#006994; */
+  background: url('img/footer.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#subscribe .btn-outline-success {
+  border-color: black;
+  color: black;
+}
+
+#subscribe .btn-outline-success:hover,
+#subscribe .btn-outline-success:focus {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+#gettingStarted {
+  color: white;
+  background: rgb(14,14,14); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(14,14,14,1) 0%, rgba(125,126,125,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(14,14,14,1) 0%,rgba(125,126,125,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#gettingStarted h3{
+  padding-top: 5px;
+}
+
+#gettingStarted a{
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+#articles{
+  min-height: 200px;
+  background-image: url("img/landscape-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#information {
+  background-color:white;
+}
+
+#information img{
+  height: 200px;
+}
+
+#announcment {
+  min-height: 150px;
+  background-image: url("img/landscape-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#announcment img{
+  height: 100%;
+}
+
+.overlay{
+  margin-top: 150px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float: left;
+  background-color: rgba(0,0,0,0.5);
+  /* -webkit-text-stroke: 1px white; */
+  font-weight: bold;
+  color: white;
+}
+
+.overlay h2 {
+  text-align: left;
+}
+
+/*  End Subscribe Section  */
+
+.email-field {
+  height: 50px;
+  /*margin-left: 160px;*/
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+
+
+.navbar-custom {
+
+  background: rgb(102,102,102); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(102,102,102,1) 1%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(102,102,102,1) 1%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(102,102,102,1) 1%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.sitemap {
+  min-height: 200px;
+  background: rgb(102,102,102); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(102,102,102,1) 1%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(102,102,102,1) 1%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(102,102,102,1) 1%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.navbar a {
+  color: white !important;
+}
+
+.navbar .dropdown-menu {
+  background-color: #666666;
+}
+
+.navbar a {
+  color: white;
+  font-size: 20px;
+}
+
+.navitems {
+  padding-right: 100px;
+}
+
+.navbar-brand {
+  font-size: 300%;
+}
+
+
+.socialLogo {
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  padding-right: 2px;
+}
+
+
+/*-- All code and design created by Greg Voskuhl. Images and content sourced from public usage sites. (mostly unsplash.com) */

@@ -1,0 +1,222 @@
+/* Date: 2/2/2018 */
+/*Created by Greg Voskuhl */
+
+body {
+  background-color: #666666;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+iframe {
+  margin-top: -50px;
+  height: 60vh;
+  width: 55vw;
+}
+
+textarea {
+  width: 70vw;
+  height: 25vh;
+}
+
+.greyscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.nogrey {
+  -webkit-filter: grayscale(0%);
+   filter: grayscale(0%);
+}
+
+.container-custom {
+  margin: 0 auto;
+}
+
+.fullscreen {
+  min-height: 100vh;
+}
+
+.jumbotron {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-family: 'EB Garamond', serif;
+  padding-top: 120px;
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+.jumbotron h1 {
+  font-size: 30px;
+}
+
+.vid {
+  margin-top: -5vh;
+  /*max-height: 40vh;*/
+  max-width: 45vw;
+}
+
+.screen {
+  margin-top: -50px;
+  min-height: 100vh;
+}
+
+.jumbotron p {
+  font-size: 24px;
+}
+
+.lead {
+  margin-top: 5%;
+  /*background-color: rgba(40, 40, 40, 0.7);*/
+  padding: 10px;
+}
+
+.navbar {
+  /*background-color: #666666;
+  height: 50px;*/
+  background: -moz-linear-gradient(top, rgba(255,255,255,0.95) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,0.95) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  height: 100px;
+}
+
+.nav-item .active {
+  color: black;
+}
+
+.navbar a {
+  color: #444444;
+}
+
+.navbar a:hover {
+  color: silver;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+
+.dropdown-menu {
+  background-color: #4f4f4f;
+}
+.dropdown-menu a{
+  color: black;
+}
+.dropdown-menu a:hover {
+  color:black;
+}
+
+.btn {
+  color: #white;
+  text-shadow:  0px 0 black, 0 0px black, 0px 0 black, 0 0px black;
+  font-family: 'Righteous', cursive;
+
+}
+
+.btn-custom {
+  color: lightgrey;
+}
+
+.btn-jumbo {
+  margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.btn-outline-custom {
+  border-color: white;
+}
+
+.btn-submit {
+  background-color: black;
+}
+
+.homepage {
+  margin-top: 5%;
+}
+
+.btn-outline-success {
+  border-color: #00ff08;
+}
+
+.slideshow {
+    margin-left: 20vw;
+    margin-right: 2vw;
+}
+
+.slideshow img {
+  max-height: 50vh;
+  max-width: 70vw;
+}
+
+.card {
+  background-color: rgba(20, 20, 20, 0.6);
+}
+
+.card-img-custom {
+  max-height: 50%;
+}
+
+.card-text {
+  font-size: 24px;
+}
+
+.list {
+  background-color: rgba(40, 40, 40, 0.7);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#one {
+  background: url(voskuhl/developer.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#two {
+  background: url(voskuhl/professional.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#three {
+  background: url(voskuhl/programmer.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#four {
+  background: url(voskuhl/mobile.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#five {
+  background: url(voskuhl/deal.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

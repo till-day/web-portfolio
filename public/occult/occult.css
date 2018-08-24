@@ -1,0 +1,341 @@
+/* =======COLORS===========
+Navbar background: #262626
+Navbar Font: #ff944d
+Body Background: #2D383A
+Body Font: #ff944d
+Button Success Color: #404040
+Button Danger Color: #e65c00
+
+===========================*/
+
+
+
+/* _______________Global Settings_____________ */
+body {
+   padding: 0;
+   width: 100%;
+   background: #2D383A;
+   color: #ff944d;
+}
+
+hr {
+   border-color:  white;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+a:active {
+   text-decoration: none;
+}
+
+.btn-success,
+.btn-success:visited,
+.btn-success:active:focus{
+   background-color: #404040;
+   color: #ff8000;
+   border-color: #1a1a1a;
+}
+
+.btn-success:hover,
+.btn-success.focus,
+.btn-success:focus {
+   background-color: black;
+   color: #ff8000;
+   border-color: #1a1a1a;
+}
+
+.btn-danger,
+.btn-danger:visited,
+.btn-danger:active:focus {
+   background: #e65c00;
+   border-color: #b34700;
+}
+
+.btn-danger:hover,
+.btn-danger.focus,
+.btn-danger:focus {
+   background: #ff1a1a;
+}
+
+
+
+/* _______________Header Settings_____________ */
+
+.navbar-brand img {
+   height: 40px;
+   margin-top: -10px;
+   padding-top: 0px;
+}
+
+.navbar-nav a {
+   color: #ff944d !important;
+}
+
+.navbar-nav a:hover {
+   color: white !important;
+}
+
+
+/* _______________Home Settings_____________ */
+
+#welcome {
+   margin-top: 50px;
+   background: url('occult/ritual/hallowseve.jpg') center center repeat fixed;
+   background-size: cover;
+   background-position: 0 0px;
+   /*background-repeat: repeat-y;*/
+   width: 100%;
+   color: white;
+}
+
+#welcome img {
+   padding-top: 25px;
+   padding-bottom: 40px;
+   max-width: 200px;
+   margin-left: 40px;
+}
+
+.headline {
+   background: rgba(255, 255, 255, 0.2);
+}
+
+.sign {
+   background: #ff944d;
+   color: black;
+   border-radius: 4px;
+   display: table;
+   padding: 20px;
+   padding-top: 10px;
+   padding-bottom: 25px;
+}
+
+.sign:hover {
+   box-shadow:0px 0px 15px 1px white;
+}
+
+.sign-badge {
+   position: relative;
+   font-size: 12px;
+   height: 75px;
+   width: 75px;
+   border-radius: 100%;
+   background: black;
+   color: white;
+   /*display: table-cell;*/
+   /* vertical-align: middle; */
+   line-height: 15px;
+   padding: 10px;
+   padding-top: 20px;
+   text-align: center;
+   margin-left: 75px;
+   margin-top: -35px;
+   margin-bottom: 20px;
+}
+
+.sign-badge:hover {
+   box-shadow: 0px 0px 15px 1px black;
+}
+
+/* _______________Subscribe Section__________  */
+
+#subscribe {
+   background: #262626;
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+#subscribe button {
+   margin-top: 15px;
+}
+
+
+/* _______________Sign Up Section____________  */
+
+#signup {
+   background: url('occult/ritual/candles.jpg') center center repeat fixed;
+   background-size: 100%;
+   width: 100%;
+   color: white;
+   padding-top: 100px;
+   padding-bottom: 200px;
+}
+
+#signup h2 strong {
+   border-bottom: solid 2px #dd5638;
+}
+
+/* _______________Grow Yourself Settings_____________ */
+
+#boost-life {
+   background: url('occult/paper.jpg') top left round;
+   color: black;
+   padding-top: 50px;
+}
+
+#boost-life h3,
+.section-header {
+   text-align: center;
+}
+
+.boost {
+   width: 150px;
+}
+
+.boost-img {
+   max-width: 300px;
+}
+
+
+
+/* _______________Video Settings_____________ */
+
+#video {
+   background: url('occult/ritual/tall-ice-mountains.jpg')0 0 repeat fixed;
+   background-size: cover;
+   padding-bottom: 100px;
+   padding-top: 50px;
+}
+
+#video h2 {
+   text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+
+/* _______________Feature Settings_____________ */
+
+.icon {
+   height: 75px;
+}
+
+#features{
+   background: white;
+   color: black;
+   text-align: center;
+   padding: 10px;
+}
+
+#features img:hover {
+   -webkit-filter: drop-shadow(0px 0px 10px black);
+   filter: drop-shadow(0px 0px 10px black);
+}
+
+.banner {
+   height: 150px;
+   background: url('occult/eyes.jpg');
+   background-size: cover;
+}
+
+/* _______________Developer Settings_____________ */
+
+#developer {
+   background: #bababa url('occult/icons/mage.png')90% 50px no-repeat;
+   color: white;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.backdrop {
+   background: rgba(0, 0, 0, 0.6);
+}
+
+#developer small {
+   color: #e65c00;
+}
+
+#developer h2 {
+   color: #e65c00;
+   text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+#developer .num {
+   display: table;
+   font-size: 30px;
+   font-weight: bold;
+   color: white;
+   line-height: 24px;
+   height: 140px;
+   width: 140px;
+   text-align: center;
+   background: black;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   border-radius: 100%;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+}
+
+#developer .num .num-content {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+#developer .num span {
+   display: block;
+   font-size: 20px;
+   font-weight: normal;
+}
+
+
+/* _______________Footer Settings_____________ */
+
+footer {
+   background: black;
+   padding: 0px
+}
+
+footer img{
+   margin-top: 10px;
+   height: 35px;
+}
+
+footer ul {
+   display: table;
+}
+
+footer li {
+   display: table-cell;
+   vertical-align: middle;
+   margin-top: 20px;
+}
+
+footer a {
+   color: white;
+}
+
+footer a:hover {
+   color: orange;
+   text-decoration: none;
+   font-style: italic;
+}
+
+.copyright {
+   margin-top: 10px;
+}
+
+/* _______________Modal Settings_____________ */
+
+.modal-content {background: #262626;}
+
+/* ______________ Media Queries _______________ */
+@media screen and (max-width : 991px ){
+   .sign {
+      margin-left: 50px;
+   }
+}
+
+@media screen and (max-width : 768px ){
+   #developer {
+      background: #bababa url('occult/icons/mage.png')100% 150px no-repeat;;
+   }
+}
